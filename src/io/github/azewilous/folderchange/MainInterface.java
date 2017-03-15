@@ -139,7 +139,9 @@ public class MainInterface {
                         FolderHandler.handleFolderNameChange(field1.getText(), field2.getText());
                     }
                 } else {
-                    System.out.println("You must check the box to run this program.");
+                    JOptionPane.showMessageDialog(button,
+                            "Must select the check box before running this program.", "CheckBox Select",
+                            JOptionPane.INFORMATION_MESSAGE);
                 }
             }
         });
