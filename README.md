@@ -1,5 +1,5 @@
 # UserFolderChange
-Makes large changes to folders simpler, many GUI changes to come, including other funtionality additions.
+Currently a simple folder/file name change plugin. More to come...
 
 By Hovering over the components in the GUI a tooltip will show.
 
